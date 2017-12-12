@@ -1,0 +1,61 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_vertical_margin"
+        tools:context="com.wahdahislamiyah.android.kitabuljami.HaditsViewActivity$PlaceholderFragment" >
+
+        <TextView
+            android:id="@+id/fragment_hadits_view_judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center_horizontal"
+            android:text="@string/sample_judul"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_medium" />
+
+        <TextView
+            android:id="@+id/fragment_hadits_view_arab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:layout_marginTop="16dp"
+            android:gravity="end|fill_horizontal|center_vertical"
+            android:lineSpacingMultiplier="1.3"
+            android:text="@string/sample_arab"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_arab_medium" />
+
+        <TextView
+            android:id="@+id/fragment_hadits_view_terjemah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:layout_marginTop="16dp"
+            android:gravity="start|fill_horizontal|center_vertical"
+            android:lineSpacingMultiplier="1.3"
+            android:text="@string/sample_terjemah"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_medium" />
+
+        <TextView
+            android:id="@+id/fragment_hadits_view_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:layout_marginTop="16dp"
+            android:gravity="start|fill_horizontal|center_vertical"
+            android:lineSpacingMultiplier="1.3"
+            android:text="@string/sample_note"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_medium" />
+    </LinearLayout>
+
+</ScrollView>

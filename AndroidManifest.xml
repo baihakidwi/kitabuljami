@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wahdahislamiyah.android.kitabuljami"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/label_app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.wahdahislamiyah.android.kitabuljami.HomeActivity"
+            android:label="@string/label_app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.wahdahislamiyah.android.kitabuljami.IndexActivity"
+            android:label="@string/label_index"
+            android:parentActivityName="com.wahdahislamiyah.android.kitabuljami.HomeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.wahdahislamiyah.android.kitabuljami.HomeActivity" />
+        </activity>
+        <activity
+            android:name="com.wahdahislamiyah.android.kitabuljami.HaditsViewActivity"
+            android:label="@string/label_app_name"
+            android:parentActivityName="com.wahdahislamiyah.android.kitabuljami.IndexActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.wahdahislamiyah.android.kitabuljami.IndexActivity" />
+        </activity>
+        <activity
+            android:name="com.wahdahislamiyah.android.kitabuljami.SearchActivity"
+            android:label="@string/label_app_name"
+            android:parentActivityName="com.wahdahislamiyah.android.kitabuljami.HomeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.wahdahislamiyah.android.kitabuljami.HomeActivity" />
+        </activity>
+        <activity
+            android:name="com.wahdahislamiyah.android.kitabuljami.InfoActivity"
+            android:label="@string/title_activity_info"
+            android:parentActivityName="com.wahdahislamiyah.android.kitabuljami.HomeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.wahdahislamiyah.android.kitabuljami.HomeActivity" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- label -->
+    <string name="label_app_name">Kitabul Jami\'</string>
+    <string name="label_index">Daftar Isi</string>
+    <string name="label_bookmark">Bookmark</string>
+    <string name="label_search">Pencarian</string>
+    <string name="label_info">Muqaddimah</string>
+    <string name="label_no_bookmark_data">Tidak ada bookmark</string>
+    <!-- label -->
+
+
+    <!-- honorific -->
+    <string name="swt_arab"> سبحانه و تعالى‎ </string>
+    <string name="saw_arab"> صلى الله عليه و سلم </string>
+    <string name="ra_arab"> رضي الله عنه </string>
+    <string name="rma_arab"> رضي الله الهم </string>
+    <string name="rha_arab"> رضي الله عنها </string>
+    <string name="swt_indonesia"> Subhanahu wa-ta’ala </string>
+    <string name="saw_indonesia"> Sallallahu Alayhi Wasallam </string>
+    <string name="ra_indonesia"> Radiyallahu anhu </string>
+    <string name="rma_indonesia"> Radiyallahu anhuma </string>
+    <string name="rha_indonesia"> Radiyallahu anha </string>
+    <!-- honorific -->
+
+
+    <!-- action -->
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Cari</string>
+    <string name="action_bookmark">Bookmark</string>
+    <string name="action_unbookmark">Unbookmark</string>
+    <string name="action_copy">Salin Semua</string>
+    <string name="action_copy_terjemah">Salin Terjemah</string>
+    <string name="action_copy_hadits">Salin Hadits</string>
+    <string name="action_enlarge_text">Perbesar Teks</string>
+    <string name="action_shrink_text">Perkecil Teks</string>
+    <!-- action -->
+
+
+    <!-- hint -->
+    <string name="hint_search">Cari</string>
+    <!-- hint -->
+
+
+    <!-- sample -->
+    <string name="sample_judul">Hak-Hak Sesama Muslim</string>
+    <string name="sample_arab">عَنْ أَبِيْ هُرَيْرَةَ ?ra? قَالَ:  قَالَ رَسُوْلُ اللَّهِ ?saw?: "حَقُّ الْمُسْلِمِ عَلَى الْمُسْلِمِ سِتٌّ: إِذَا لَقِيْتَهُ فَسَلِّمْ عَلَيْهِ، وَإِذَا دَعَاكَ فَأَجِبْهُ، وَإِذَا اسْتَنْصَحَكَ فَانْصَحْهُ، وَإِذَا عَطَسَ فَحَمِدَ اللَّهَ فَسَمِّتْهُ، وَإِذاَ مَرِضَ فَعُدْهُ، وَإِذاَ مَاتَ فَاتْـبَعْهُ." رَوَاهُ مُسلِمٌ.</string>
+    <string name="sample_terjemah">Dari Abu Hurairah ?ra? ia berkata: Rasulullah ?saw? bersabda: “Hak seorang muslim terhadap sesama muslim itu ada enam: jika kamu bertemu dengannya maka ucapkanlah salam, jika ia mengundangmu maka penuhilah undangannya, jika ia meminta nasihat kepadamu maka berilah ia nasihat, jika ia bersin dan mengucapkan ‘Alhamdulillah’ maka do‘akanlah ia dengan ‘Yarhamukallah’, jika ia sakit maka jenguklah dan jika ia meninggal dunia maka iringilah jenazahnya.” (HR. Muslim).</string>
+    <string name="sample_note">(Shahih) HR. Muslim no. 2162. Disebutkan dalam (I): (  فَشََمِّتْهُ) dan ( فَاتَّـبِعْهُ )</string>
+    <string name="test1"></string>
+    <!-- sample -->
+
+
+    <!-- setting -->
+    <string name="setting_text_size_arab">com.baihakidwi.android.kitabuljami.textSizeArab</string>
+    <string name="setting_text_size">com.baihakidwi.android.kitabuljami.textSize</string>
+    <!-- setting -->
+
+    <string name="bismillah">بسم الله الرحمن الرحيم</string>
+    <string name="muqaddimah">\tSegala puji milik Allah I . Shalawat dan salam semoga senantiasa tercurah kepada suri tauladan kita Rasulullah Muhammad r dan juga keluarga beliau serta para shahabatnya y .\n
+\tBuku kecil yang ada dihadapan para pembaca ini, merupakan buku yang sangat baik untuk dimiliki oleh setiap muslim. Di dalamnya berisi pelajaran-pelajaran berkaitan dengan Adab, Akhlaq, dan Dzikir, serta Do\‘a sehari-hari seorang muslim yang diambil dari hadits-hadits Rasulullah r .\n
+\tDalam penshahihan dan pendho\’ifan hadits –yang terdapat di catatan kaki– kami merujuk pada karya Syaikh Sumair bin Amin az Zuhairi –ketika mentahqiq kitab Bulughul Maram– dan karya-karya Syaikh Muhammad Nashiruddin al Albani V . Apa yang ditulis di awal catatan kaki, di antara dua tanda kurung adalah keterangan dari Syaikh Sumair bin Amin az Zuhairi V , sedang selanjutnya adalah keterangan dari Syaikh Muhammad Nashiruddin al Albani V .\n 
+\tDalam beberapa cetakan kitab Bulughul Maram, kadang terdapat beberapa perbedaan dalam lafadz matan haditsnya. Dalam buku ini, kami merujuk kepada tiga buah kitab, yaitu:\n
+1.	Bulughul Maram yang ditahqiq oleh Syaikh Sumair bin Amin az Zuhairi, 1424 H cetakan ke-7, yang kemudian kami singkat dengan (Z)\n 
+2.	Bulughul Maram yang ditahqiq oleh Syaikh Kholid bin Dhoifullah Asy Syalahi,  Penerbit: Muassasah ar Risalah, 1424 H, yang kemudian kami singkat dengan (K)\n 
+3.	Bulughul Maram yang ditahqiq oleh Syaikh \'Ishom Musa Hadi, Penerbit Daar ash Siddiq, 1423 H, yang kemudian kami singkat dengan (I).\n 
+\n
+\tJika ada perbedaan lafadz matan hadits pada ke-tiga kitab tersebut, kami cantumkan pada catatan kaki.\n
+\tSemoga buku kecil ini bisa memberikan banyak manfaat bagi para pembacanya. Tentunya dalam penyusunan buku kecil ini terdapat banyak kekurangannya, karena itu masukan dan saran dari pembaca sangat kami harapkan.\n</string>
+    <string name="penerbit">BELAJAR ISLAM\n
+Jl. Waringin, Jomblang RT 3, No 62, Karangbendo, Banguntapan, Bantul-Yogyakarta\n
+Email: infopenerbit@belajarislam.com\n
+Belajarislam.com</string>
+    <string name="title_activity_info">Muqaddimah</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
